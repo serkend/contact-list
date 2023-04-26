@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "com.infoabout.contactlist.app-mergeDebugResources-48:/layout/fragment_user.xml",
+        "source": "com.infoabout.contactlist.app-main-51:/layout/fragment_user.xml"
+    },
+    {
+        "merged": "com.infoabout.contactlist.app-mergeDebugResources-48:/layout/fragment_new_contact.xml",
+        "source": "com.infoabout.contactlist.app-main-51:/layout/fragment_new_contact.xml"
+    },
+    {
+        "merged": "com.infoabout.contactlist.app-mergeDebugResources-48:/layout/fragment_favorite_contacts.xml",
+        "source": "com.infoabout.contactlist.app-main-51:/layout/fragment_favorite_contacts.xml"
+    },
+    {
+        "merged": "com.infoabout.contactlist.app-mergeDebugResources-48:/layout/saved_contact_rv_item.xml",
+        "source": "com.infoabout.contactlist.app-main-51:/layout/saved_contact_rv_item.xml"
+    },
+    {
+        "merged": "com.infoabout.contactlist.app-mergeDebugResources-48:/layout/contact_rv_item.xml",
+        "source": "com.infoabout.contactlist.app-main-51:/layout/contact_rv_item.xml"
+    },
+    {
+        "merged": "com.infoabout.contactlist.app-mergeDebugResources-48:/layout/fragment_contacts.xml",
+        "source": "com.infoabout.contactlist.app-main-51:/layout/fragment_contacts.xml"
+    },
+    {
+        "merged": "com.infoabout.contactlist.app-mergeDebugResources-48:/layout/activity_main.xml",
+        "source": "com.infoabout.contactlist.app-main-51:/layout/activity_main.xml"
+    }
+]

@@ -1,0 +1,121 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.infoabout.contactlist"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->E:\Android\Projects\Work\ContactList\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->E:\Android\Projects\Work\ContactList\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_CONTACTS" />
+11-->E:\Android\Projects\Work\ContactList\app\src\main\AndroidManifest.xml:5:5-72
+11-->E:\Android\Projects\Work\ContactList\app\src\main\AndroidManifest.xml:5:22-69
+12    <!-- permissions to write contacts -->
+13    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+13-->E:\Android\Projects\Work\ContactList\app\src\main\AndroidManifest.xml:7:5-73
+13-->E:\Android\Projects\Work\ContactList\app\src\main\AndroidManifest.xml:7:22-70
+14    <!-- permissions to make a call -->
+15    <uses-permission android:name="android.permission.CALL_PHONE" />
+15-->E:\Android\Projects\Work\ContactList\app\src\main\AndroidManifest.xml:9:5-68
+15-->E:\Android\Projects\Work\ContactList\app\src\main\AndroidManifest.xml:9:22-66
+16
+17    <permission
+17-->[androidx.core:core:1.9.0] C:\Users\user\.gradle\caches\transforms-3\d948506e33d0612d22608842e49a3143\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+18        android:name="com.infoabout.contactlist.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+18-->[androidx.core:core:1.9.0] C:\Users\user\.gradle\caches\transforms-3\d948506e33d0612d22608842e49a3143\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+19        android:protectionLevel="signature" />
+19-->[androidx.core:core:1.9.0] C:\Users\user\.gradle\caches\transforms-3\d948506e33d0612d22608842e49a3143\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+20
+21    <uses-permission android:name="com.infoabout.contactlist.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- permissions to send sms -->
+21-->[androidx.core:core:1.9.0] C:\Users\user\.gradle\caches\transforms-3\d948506e33d0612d22608842e49a3143\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+21-->[androidx.core:core:1.9.0] C:\Users\user\.gradle\caches\transforms-3\d948506e33d0612d22608842e49a3143\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+22    <application
+22-->E:\Android\Projects\Work\ContactList\app\src\main\AndroidManifest.xml:12:5-31:19
+23        android:name="com.infoabout.contactlist.MyApp"
+23-->E:\Android\Projects\Work\ContactList\app\src\main\AndroidManifest.xml:18:9-30
+24        android:allowBackup="true"
+24-->E:\Android\Projects\Work\ContactList\app\src\main\AndroidManifest.xml:13:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.9.0] C:\Users\user\.gradle\caches\transforms-3\d948506e33d0612d22608842e49a3143\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+26        android:dataExtractionRules="@xml/data_extraction_rules"
+26-->E:\Android\Projects\Work\ContactList\app\src\main\AndroidManifest.xml:14:9-65
+27        android:debuggable="true"
+28        android:extractNativeLibs="false"
+29        android:fullBackupContent="@xml/backup_rules"
+29-->E:\Android\Projects\Work\ContactList\app\src\main\AndroidManifest.xml:15:9-54
+30        android:icon="@mipmap/ic_launcher"
+30-->E:\Android\Projects\Work\ContactList\app\src\main\AndroidManifest.xml:16:9-43
+31        android:label="@string/app_name"
+31-->E:\Android\Projects\Work\ContactList\app\src\main\AndroidManifest.xml:17:9-41
+32        android:supportsRtl="true"
+32-->E:\Android\Projects\Work\ContactList\app\src\main\AndroidManifest.xml:19:9-35
+33        android:testOnly="true"
+34        android:theme="@style/Theme.RandomUser" >
+34-->E:\Android\Projects\Work\ContactList\app\src\main\AndroidManifest.xml:20:9-48
+35        <activity
+35-->E:\Android\Projects\Work\ContactList\app\src\main\AndroidManifest.xml:22:9-30:20
+36            android:name="com.infoabout.contactlist.ui.main_activity.MainActivity"
+36-->E:\Android\Projects\Work\ContactList\app\src\main\AndroidManifest.xml:23:13-58
+37            android:exported="true" >
+37-->E:\Android\Projects\Work\ContactList\app\src\main\AndroidManifest.xml:24:13-36
+38            <intent-filter>
+38-->E:\Android\Projects\Work\ContactList\app\src\main\AndroidManifest.xml:25:13-29:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->E:\Android\Projects\Work\ContactList\app\src\main\AndroidManifest.xml:26:17-69
+39-->E:\Android\Projects\Work\ContactList\app\src\main\AndroidManifest.xml:26:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->E:\Android\Projects\Work\ContactList\app\src\main\AndroidManifest.xml:28:17-77
+41-->E:\Android\Projects\Work\ContactList\app\src\main\AndroidManifest.xml:28:27-74
+42            </intent-filter>
+43        </activity>
+44
+45        <uses-library
+45-->[androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\29ca055c2c5c540d7c90015b6dd9ce8a\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+46            android:name="androidx.window.extensions"
+46-->[androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\29ca055c2c5c540d7c90015b6dd9ce8a\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+47            android:required="false" />
+47-->[androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\29ca055c2c5c540d7c90015b6dd9ce8a\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+48        <uses-library
+48-->[androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\29ca055c2c5c540d7c90015b6dd9ce8a\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+49            android:name="androidx.window.sidecar"
+49-->[androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\29ca055c2c5c540d7c90015b6dd9ce8a\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+50            android:required="false" />
+50-->[androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\29ca055c2c5c540d7c90015b6dd9ce8a\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+51
+52        <provider
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\197988dc45903781740ae1d396171bbb\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+53            android:name="androidx.startup.InitializationProvider"
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\197988dc45903781740ae1d396171bbb\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+54            android:authorities="com.infoabout.contactlist.androidx-startup"
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\197988dc45903781740ae1d396171bbb\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+55            android:exported="false" >
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\197988dc45903781740ae1d396171bbb\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+56            <meta-data
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\197988dc45903781740ae1d396171bbb\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+57                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\197988dc45903781740ae1d396171bbb\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+58                android:value="androidx.startup" />
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\197988dc45903781740ae1d396171bbb\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+59            <meta-data
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\transforms-3\71f1f74d912b9d0a246bc1a604f87677\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+60                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+60-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\transforms-3\71f1f74d912b9d0a246bc1a604f87677\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+61                android:value="androidx.startup" />
+61-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\transforms-3\71f1f74d912b9d0a246bc1a604f87677\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+62        </provider>
+63
+64        <service
+64-->[androidx.room:room-runtime:2.4.3] C:\Users\user\.gradle\caches\transforms-3\99d6ef68922c9899e40dfc8bced9c6fe\transformed\room-runtime-2.4.3\AndroidManifest.xml:25:9-28:40
+65            android:name="androidx.room.MultiInstanceInvalidationService"
+65-->[androidx.room:room-runtime:2.4.3] C:\Users\user\.gradle\caches\transforms-3\99d6ef68922c9899e40dfc8bced9c6fe\transformed\room-runtime-2.4.3\AndroidManifest.xml:26:13-74
+66            android:directBootAware="true"
+66-->[androidx.room:room-runtime:2.4.3] C:\Users\user\.gradle\caches\transforms-3\99d6ef68922c9899e40dfc8bced9c6fe\transformed\room-runtime-2.4.3\AndroidManifest.xml:27:13-43
+67            android:exported="false" />
+67-->[androidx.room:room-runtime:2.4.3] C:\Users\user\.gradle\caches\transforms-3\99d6ef68922c9899e40dfc8bced9c6fe\transformed\room-runtime-2.4.3\AndroidManifest.xml:28:13-37
+68    </application>
+69
+70</manifest>

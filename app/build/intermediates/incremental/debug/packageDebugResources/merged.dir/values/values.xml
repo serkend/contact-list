@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="blue_star">#0084FF</color>
+    <color name="btn_add_bg">#92FF96</color>
+    <color name="dark_gray">#A9A9A9</color>
+    <color name="floating_btn_bg">#E5E0FA</color>
+    <color name="gray_star">#BCBCBC</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">ContactList</string>
+    <string name="cancel">Cancel</string>
+    <string name="contact_updating_error">Contact updating error!</string>
+    <string name="contact_was_saved">Contact was saved successfully!</string>
+    <string name="create">Create</string>
+    <string name="email">Email</string>
+    <string name="enable">Enable</string>
+    <string name="favorites">Favorites</string>
+    <string name="name">Name</string>
+    <string name="package_name">package</string>
+    <string name="permission_was_denied">Permission for writing contacts was denied . Enable it.</string>
+    <string name="phone">Phone</string>
+    <string name="rationale_desc">This app relies on read access to your contacts.
+We require access to this permission to find your contacts in our database and suggest people you may know.
+We will not store any contact info in our data base if they are not a part of our platform.
+For further info read our privacy policy.</string>
+    <string name="rationale_title">We need permission to read your contacts</string>
+    <string name="update">Update</string>
+    <string name="updated_successfully">Contact was updated successfully!</string>
+    <string name="updating_error">Contact updating error!</string>
+    <style name="Theme.RandomUser" parent="Theme.MaterialComponents.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/dark_gray</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="fab_bg_style" parent="Widget.MaterialComponents.FloatingActionButton">
+
+    </style>
+</resources>
